@@ -1,0 +1,7 @@
+; mre_calendar.def : Declares the module parameters for the DLL.
+
+LIBRARY      "mre_calendar"
+DESCRIPTION  'mre_calendar Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
